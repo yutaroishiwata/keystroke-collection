@@ -1,0 +1,23 @@
+{
+  "name": "keystroke-collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutaroo/keystroke-collection.git"
+  },
+  "author": "Yutaro Ishiwata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutaroo/keystroke-collection/issues"
+  },
+  "homepage": "https://github.com/yutaroo/keystroke-collection#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
