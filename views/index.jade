@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  body
+    form
+      h5 アルファベットで名前を入力して下さい 
+      .form-row
+        .col-md-4.mb-3
+          label data1
+          input#firstData.form-control(type="text" name="password" placeholder="name" autocomplete="off" required="")
+        .col-md-4.mb-3
+          label data2
+          input.form-control(type="text" name="password" placeholder="name" autocomplete="off" required="")
+        .col-md-4.mb-3
+          label data3
+          input.form-control(type="text" name="password" placeholder="name" autocomplete="off" required="")
+      button#insert.btn.btn-primary(type="button") Insert
+
+      h5 アルファベットで「sechack365」入力して下さい 
+      .form-row
+        .col-md-4.mb-3
+          label data1
+          input#firstData.form-control(type="text" name="password" placeholder="sechack365" autocomplete="off" required="")
+        .col-md-4.mb-3
+          label data2
+          input.form-control(type="text" name="password" placeholder="sechack365" autocomplete="off" required="")
+        .col-md-4.mb-3
+          label data3
+          input.form-control(type="text" name="password" placeholder="sechack365" autocomplete="off" required="")
+      button#insert.btn.btn-primary(type="button") submit 
